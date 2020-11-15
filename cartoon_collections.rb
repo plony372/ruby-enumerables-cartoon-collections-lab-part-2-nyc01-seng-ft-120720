@@ -26,7 +26,7 @@ def find_valid_calls(planeteer_calls)
   val = nil
   valid_calls.each do | b |
   val = planeteer_calls.find_index{ |num |num == b}
-  return val if val != nil
+  return planeteer_calls[val] if val != nil
 end
-planeteer_calls[val]
+
 end
