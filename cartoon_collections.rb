@@ -28,5 +28,5 @@ def find_valid_calls(planeteer_calls)
   val = planeteer_calls.find_index{ |num |num == b}
   return planeteer_calls[val] if val != nil
 end
-
+  return nil
 end
